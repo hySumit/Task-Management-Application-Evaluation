@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background: #121215; */
+  
+}
+.card1{
+  border: 1px solid rgba(170, 170, 170, 0.678);
+  border-radius: 30px;
+}
+.card2{
+  border: 1px solid rgba(170, 170, 170, 0.678);
+  border-radius: 30px;
+}
