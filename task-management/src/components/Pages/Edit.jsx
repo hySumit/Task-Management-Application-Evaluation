@@ -75,7 +75,6 @@ export const Edit = () => {
     try {
       await axios.delete(`http://localhost:8080/todos/${id}`);
       setSelectedTodo(null);
-      // You might want to update the list of todos after deleting
       fetchTodos();
     } catch (error) {
       console.error("Error deleting todo:", error);
