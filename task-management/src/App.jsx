@@ -5,12 +5,10 @@ import './App.css'
 import { Allroutes } from './components/Routes/Allroutes'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Allroutes/>
-      
     </>
   )
 }

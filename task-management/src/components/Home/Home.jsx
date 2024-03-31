@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { List } from "../Pages/List";
 
 export const Home = ({data}) => {
   return (
@@ -24,6 +25,7 @@ export const Home = ({data}) => {
           </div>
         </div>
         <div className="cards card2 w-[780px]">
+          <List/>
         </div>
       </section>
     </div>
